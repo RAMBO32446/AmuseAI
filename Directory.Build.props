@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <Version>3.7.10</Version>
+    <Version>3.8.0</Version>
     <PackageVersion>0.13.4</PackageVersion>
     <Copyright>sa_ddam213 - 2026</Copyright>
     <RepositoryUrl>https://github.com/saddam213/AmuseAI</RepositoryUrl>
