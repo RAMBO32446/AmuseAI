@@ -11954,9 +11954,53 @@
           "Height": 1536
         },
         {
-          "Width": 2048,
-          "Height": 2048,
+          "Width": 640,
+          "Height": 1536
+        },
+        {
+          "Width": 768,
+          "Height": 1344
+        },
+        {
+          "Width": 832,
+          "Height": 1280
+        },
+        {
+          "Width": 896,
+          "Height": 1152
+        },
+        {
+          "Width": 768,
+          "Height": 768
+        },
+        {
+          "Width": 1024,
+          "Height": 1024,
           "IsDefault": true
+        },
+        {
+          "Width": 1536,
+          "Height": 1536
+        },
+        {
+          "Width": 2048,
+          "Height": 2048
+        },
+        {
+          "Width": 1152,
+          "Height": 896
+        },
+        {
+          "Width": 1280,
+          "Height": 832
+        },
+        {
+          "Width": 1344,
+          "Height": 768
+        },
+        {
+          "Width": 1536,
+          "Height": 640
         },
         {
           "Width": 1536,

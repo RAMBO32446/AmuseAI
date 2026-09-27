@@ -32,12 +32,12 @@ namespace Amuse.Host.StableDiffusionCpp
                 SamplerRngType = Pipeline.RngType.CPU,
 
                 // Memory
-                MaxVram = pipelineOptions.MemoryMode == MemoryModeType.Device ? "0" : "-1",
-                DataType = GetDataType(pipelineOptions.QuantType, pipelineOptions.MemoryMode),
+                MaxVram = "-1",
+                DataType = Pipeline.DataType.Default,
+                EagerLoad = false,
+                IsPrefetchEnabled = true,
+                IsSegmentedComputeEnabled = true,
                 AutoFit = pipelineOptions.MemoryMode == MemoryModeType.Balanced,
-                EagerLoad = pipelineOptions.MemoryMode == MemoryModeType.Device,
-                IsPrefetchEnabled = pipelineOptions.MemoryMode != MemoryModeType.Device,
-                IsSegmentedComputeEnabled = pipelineOptions.MemoryMode != MemoryModeType.Device,
 
                 // Misc
                 ForceSdxlVaeConvScale = true,

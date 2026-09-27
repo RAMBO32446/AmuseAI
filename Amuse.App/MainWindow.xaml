@@ -49,9 +49,6 @@
                 <!--Window Options-->
                 <Grid DockPanel.Dock="Right" Width="290" >
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" >
-
-                        <CommonControls:LocalizationControl Visibility="Collapsed"/>
-
                         <CommonControls:IconButton 
                             Width="40"
                             Icon="f013" 
